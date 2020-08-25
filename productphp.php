@@ -1,11 +1,10 @@
 <?php
+/*Muhammad Yusril
 class produk {
     public $namaBarang = "Laptop ",
            $merk = "Pavillion",
             $harga = "12000000";
-    /* public function sayHi(){
-        return "HI";
-    } */
+    
     public function getCetak(){
         return "$this->namaBarang, $this->merk, $this->harga";
     }
@@ -26,3 +25,4 @@ $produk3->namaBarang="Flashdisk";
 $produk3->merk="Sanddisk";
 $produk3->harga=150000;
 echo "Nama Barang :", $produk3->getCetak();
+?>
